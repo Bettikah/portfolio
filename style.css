@@ -1,0 +1,41 @@
+body{
+    background-image: url(./images/pexels-hong-son-8801423.jpg);
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav_link{
+    position: relative;
+    margin: 0 4px;
+    padding: 10px;
+    text-align: end;
+    font-size: 130%;
+    font-weight: bold;
+}
+div{
+    background-image: url(./images/me4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 40vh;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+    transform: translate(150px, 400px);
+}
+#civil{
+    position: absolute;
+    left: 1500px;
+    top: 150px;
+    font-size: 4.5rem;
+    font-family: "Open Sans";
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /*you can write; animation:bounce 3s infinite alternate reverse;*/
+}
+@keyframes bounce{
+    0%{transform: translate(0);}
+    100%{transform: translateY(20px);}
+}

@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(226, 100%, 79%);
+}
+.nav_link{
+    position: relative;
+    margin: 0 4px;
+    padding: 10px;
+    text-align: end;
+    font-size: 130%;
+}
+.one{
+    width: 70%;
+    font-size: 2rem;
+}
+.two{
+    width: 50%;
+}
+#subheadings{
+    font-size: 2rem;
+}
+#edu{
+    font-size: 2rem;
+}
+.extra{
+    font-size: 2rem;
+}
+.four{
+    font-size: 2rem;
+}
+.skills{
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+}
+.three{
+    font-size: 2rem;
+}
+.list{
+    font-size: 1.5rem;
+}
+.img{
+    background-image: url(/images/me2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 40vh;
+    border-radius: 20%;
+    transform: translateY(60px);
+}
+
+.icon{
+    margin: 20px;
+    transform: translateY(75%);
+}
+.fa-solid fa-phone{
+    color: brown;
+}
+.fa-solid fa-envelope{
+    color: brown;
+}
+.icon button{
+    width: 10%;
+    font-size: 0.8rem;
+    overflow: auto;
+    padding: 5px;
+    background-color: hsl(226, 100%, 79%);
+    border-radius: 10px;
+}
